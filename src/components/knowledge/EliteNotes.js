@@ -179,7 +179,23 @@ function Mining() {
 
 					<p>Experiment and find the most intuitive groups for your mining process.</p>
 
-					<h4></h4>
+					<h4>Refinery</h4>
+					<p>Minerals that you extract from asteroids will be in rock fragments.  You limpets will collect these fragments and drop them off in your refinery.  Once you've gathered enough fragments of a particular kind, that bin of your refinery will empty and 1 unit of that mineral will be added to your cargo.</p>
+					<p>There are numerous bins in a refinery.  The status of the bins can be viewed through you inventory menu.  Each of these bins can only hold minerals of one type.  If all of your bins are full of minerals and you attempt to collect a new one, you will get a warning about unallocated resources.  If this happens, take a look at your bins and eject whatever is of the least value.</p>
+					<p>To make your collection and refinement much easier, you can ignore minerals of your choosing.  This is done by going to your contacts menu, selecting a fragment that contains a mineral you want to ignore, and then selecting "Add to ignore list."  This can be undone the same way.</p>
+
+					<h4>Laser Mining</h4>
+					<p>Laser mining is pretty straight forward.  Fire a prospect limpet into an asteroid and take a look at its composition.  If it doesn't contain any valuable minerals, move on to the next asteroid.  If it does contain valuable minerals, deploy your mining lasers and start shooting.</p>
+
+					<h4>Sub-surface Mining</h4>
+					<p>You may come across asteroids with sub-surfaces deposits once scanned.  If you have a sub-surface displacement missile, you can get large fragments from these deposits.</p>
+					<p>To use a sub-surface missile, line up your sights with the deposit and fire, holding the fire button down.  A small missile will enter the deposit and a panel will appear to the left side of your HUD.  This panel contains a graph and a bar with some blue sections.  As you continue to hold fire down, the graph and bar will begin to scroll.  The object of this mini game is to release fire when the marker on the lower bar is in a blue section.  The upper graph represents the density of the rock, and the speed of the scroll will increase or decrease depending on how low or high the graph is.</p>
+
+					<h4>Seismic Charge Mining</h4>
+					<p>Some asteroids reveal fissures when scanned by a prospector.  The prospector read-out will also say there are deep core deposits of some valuable mineral.  This is a job for the seismic charge.</p>
+					<p>You will fire charges of varying strength into these fissures.  The strength is determined by how long you hold the fire button before releasing.  There are indicators to help with this.</p>
+					<p>The charges will detonate <strong>120 seconds</strong> after the first charge is planted.  Another panel will also appear on your HUD to the top right.  The panel shows a graph of moving bars with a blue section and a red section at the top.  The object of this mini game will be to place charges such that the total strength of the charges raises the graph into the blue zone.  If you are below the blue zone, the asteroid will not crack.  If you are above the blue zone, some deposits will be destroyed, lowering your yield.</p>
+					<p>The in-game documentation is somewhat unclear about the mechanics of this mini game, but here's how I think it works.  There are 3 kinds of fissures: low, medium, and average strength.  The strength of charge that you put into any one of these fissures will not only determine how much the graph increases, but potentially how stable the noise is at the top of the graph.  Ideally we want the height in the blue and the variance as flat as possible.</p>
 				</div>
 			</section>
 
@@ -420,7 +436,7 @@ export default function Template() {
 	return (
 		<>
 			<h1 className='invert sticky'>Elite Dangerous</h1>
-			<Outline/>
+			<Outline />
 			<hr />
 			<Mining />
 
