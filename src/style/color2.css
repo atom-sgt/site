@@ -1,0 +1,94 @@
+/* COLOR REFERENCE
+* background: #30346d
+* highlight: #deeed6
+* default: #8595a1
+* muted: 
+* lowlight: #30346d
+* red: #
+* green: #
+* blue: #
+*/
+
+/* ELEMENT COLORS */
+body {
+	background: #30346d;
+	color: #8595a1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #deeed6;
+}
+
+blockquote {
+	border-left: 1px solid #deeed6;
+}
+
+a {
+	color: #8595a1;
+}
+
+em, strong {
+	color: #deeed6;
+}
+
+a:hover {
+	text-decoration: underline #deeed6;
+}
+
+dd {
+	color: #8595a1
+}
+
+li::marker {
+	color: #8595a1
+}
+
+summary::marker {
+	color: #deeed6;
+}
+
+summary:hover {
+	color: #deeed6;
+}
+
+hr {
+	border-top: 1px solid #deeed6;
+}
+
+code {
+	background: #140c1c;
+}
+
+var {
+	background: #140c1c;
+}
+
+thead {
+	color: #deeed6;
+}
+
+td {
+	border-top: 1px solid #8595a1;
+}
+
+/* CUSTOM CLASS RECOLORS */
+.invert {
+	color: #30346d;
+	background: #deeed6;
+}
+
+.muted {
+	color: #696a6a;
+}
+
+tr:hover {
+	background: #140c1c;
+}
+
+.txt-high {
+	color: #deeed6;
+}
+
+.txt-low {
+	color: #140c1c;
+}

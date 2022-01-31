@@ -1,0 +1,61 @@
+/* LAYOUT */
+.main-layout {
+	height: 100vh;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.main-header {
+	grid-column: span 12;
+	padding-bottom: 1rem;
+}
+
+.main-nav {
+	grid-column: span 2;
+}
+
+.main-content {
+	grid-column: span 8;
+	overflow: auto;
+}
+
+/* COMPONENTS */
+.card {
+	padding: 0 1rem 1rem 0;
+}
+
+.inset {
+	margin-left: 1rem;
+}
+
+ul.horizontal {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+ul.horizontal > li {
+	float: left;
+	padding-right: 1rem;
+}
+
+/* UTILS */
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
