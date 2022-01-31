@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/atom-sgt/atom-sgt.github.io/static/css/main.bbb22901.chunk.css",
+    "main.js": "/atom-sgt/atom-sgt.github.io/static/js/main.8d926d3e.chunk.js",
+    "main.js.map": "/atom-sgt/atom-sgt.github.io/static/js/main.8d926d3e.chunk.js.map",
+    "runtime-main.js": "/atom-sgt/atom-sgt.github.io/static/js/runtime-main.76ae30ba.js",
+    "runtime-main.js.map": "/atom-sgt/atom-sgt.github.io/static/js/runtime-main.76ae30ba.js.map",
+    "static/js/2.8486cd81.chunk.js": "/atom-sgt/atom-sgt.github.io/static/js/2.8486cd81.chunk.js",
+    "static/js/2.8486cd81.chunk.js.map": "/atom-sgt/atom-sgt.github.io/static/js/2.8486cd81.chunk.js.map",
+    "index.html": "/atom-sgt/atom-sgt.github.io/index.html",
+    "precache-manifest.fcc2f23d5e87dc152380a170c12bbd67.js": "/atom-sgt/atom-sgt.github.io/precache-manifest.fcc2f23d5e87dc152380a170c12bbd67.js",
+    "service-worker.js": "/atom-sgt/atom-sgt.github.io/service-worker.js",
+    "static/css/main.bbb22901.chunk.css.map": "/atom-sgt/atom-sgt.github.io/static/css/main.bbb22901.chunk.css.map",
+    "static/js/2.8486cd81.chunk.js.LICENSE.txt": "/atom-sgt/atom-sgt.github.io/static/js/2.8486cd81.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76ae30ba.js",
+    "static/js/2.8486cd81.chunk.js",
+    "static/css/main.bbb22901.chunk.css",
+    "static/js/main.8d926d3e.chunk.js"
+  ]
+}
